@@ -18,8 +18,7 @@ int main()
         {
             if( list[x] == list[y] )
             {
-                //printf(" %d   %d",list[x],list[y]);
-                list[y] = rand() % 51 + 1;
+               list[y] = rand() % 51 + 1;
             }
         }
     }
